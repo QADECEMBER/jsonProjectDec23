@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-20T17:44:21Z" name="Suite" finished-at="2024-06-20T17:44:37Z" duration-ms="16906">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@7c83dc97]" name="validUserShouldBeAbleToLogin" class="test.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@7c83dc97]" name="validUserShouldBeAbleToLogin" class="test.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-06-20T17:44:21Z" name="Test" finished-at="2024-06-20T17:44:37Z" duration-ms="16906">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="readJson()[pri:0, instance:test.LoginTest@7c83dc97]" started-at="2024-06-20T17:44:21Z" name="readJson" finished-at="2024-06-20T17:44:21Z" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJson -->
+        <test-method signature="validUserShouldBeAbleToLogin()[pri:0, instance:test.LoginTest@7c83dc97]" started-at="2024-06-20T17:44:21Z" name="validUserShouldBeAbleToLogin" finished-at="2024-06-20T17:44:37Z" duration-ms="16865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserShouldBeAbleToLogin -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

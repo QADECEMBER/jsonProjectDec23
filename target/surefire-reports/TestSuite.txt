@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.482 sec <<< FAILURE! - in TestSuite
+userShouldBeAbleToCreateNewCustomer(test.AddCustomerTest)  Time elapsed: 0.087 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\clair\OneDrive\Desktop\Selenium\JsonProjet\drivers\chromedriver.exe
+	at test.AddCustomerTest.userShouldBeAbleToCreateNewCustomer(AddCustomerTest.java:36)
+
+validUserShouldBeAbleToLogin(test.LoginTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\clair\OneDrive\Desktop\Selenium\JsonProjet\drivers\chromedriver.exe
+	at test.LoginTest.validUserShouldBeAbleToLogin(LoginTest.java:26)
+
+validateAlertPopup(test.LoginTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\clair\OneDrive\Desktop\Selenium\JsonProjet\drivers\chromedriver.exe
+	at test.LoginTest.validateAlertPopup(LoginTest.java:41)
+
